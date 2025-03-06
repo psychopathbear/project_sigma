@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: a2cd5784892679944aae557fb1e8aa55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6680314957467710897
+    second: coin-Sheet_0
+  - first:
+      213: -4239636872640807168
+    second: coin-Sheet_1
+  - first:
+      213: -4198123491873058562
+    second: coin-Sheet_2
+  - first:
+      213: -8848349315750879858
+    second: coin-Sheet_3
+  - first:
+      213: -8545260087126076678
+    second: coin-Sheet_4
+  - first:
+      213: -6279577419998616974
+    second: coin-Sheet_5
+  - first:
+      213: 8240611074161235278
+    second: coin-Sheet_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coin-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 10, y: -6}
+        - {x: 10, y: 6}
+        - {x: 6, y: 10}
+        - {x: -6, y: 10}
+        - {x: -10, y: 6}
+        - {x: -10, y: -6}
+        - {x: -6, y: -10}
+        - {x: 6, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069712956b28139429ed56e0057346d1
+      internalID: -249825012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 5
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 9, y: -6}
+        - {x: 9, y: 7}
+        - {x: 7, y: 10}
+        - {x: -9, y: 10}
+        - {x: -9, y: -10}
+        - {x: 6, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a861571a935966438140969c7ad2d18
+      internalID: 214084539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 5
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 5.5, y: -8}
+        - {x: 5.5, y: 8}
+        - {x: 3.5, y: 10}
+        - {x: -5.5, y: 10}
+        - {x: -5.5, y: -10}
+        - {x: 4.5, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20730d29eabf31243925607290ece2dd
+      internalID: -1511906366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 5
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 3.5, y: 10}
+        - {x: -3.5, y: 10}
+        - {x: -3.5, y: -10}
+        - {x: 3.5, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e9b472f4231af4695a14a435ef0e38
+      internalID: 151171252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 5
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 3.5, y: 10}
+        - {x: -3.5, y: 10}
+        - {x: -3.5, y: -10}
+        - {x: 3.5, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e3ec0af690d67409ec48ee72844bd0
+      internalID: -887250813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 5
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 5.5, y: 10}
+        - {x: -5.5, y: 10}
+        - {x: -5.5, y: -10}
+        - {x: 5.5, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5883f740f91584d983baa798c0ebba
+      internalID: 63510252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 9, y: -6}
+        - {x: 9, y: 7}
+        - {x: 7, y: 10}
+        - {x: -9, y: 10}
+        - {x: -9, y: -10}
+        - {x: 6, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa343b06f4685343be67b8a625ae6bc
+      internalID: 1748324548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 5
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709615d7745bcbd41a5075f5143b79e7
+      internalID: 879978024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7ba40333e5184004cb9f6547bbd7f5b6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      coin-Sheet_0: -249825012
+      coin-Sheet_1: 214084539
+      coin-Sheet_2: -1511906366
+      coin-Sheet_3: 151171252
+      coin-Sheet_4: -887250813
+      coin-Sheet_5: 63510252
+      coin-Sheet_6: 1748324548
+      coin-Sheet_7: 879978024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
