@@ -17,7 +17,6 @@ public class GameController : MonoBehaviour
     public Slider progressSlider;
     public GameObject gameOverScreen;
     public GameObject pauseScreen;
-    private int survivedLevelsCount;
     public static event Action OnReset;
     private SpriteRenderer spriteRenderer;
     private GameObject[] bullets;
@@ -29,6 +28,7 @@ public class GameController : MonoBehaviour
     public Animator animator;
     public static bool isLevelComplete = false;
     public GameObject[] nextLevel;
+    public GameObject[] resetRequired;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -57,6 +57,10 @@ public class GameController : MonoBehaviour
             gameOverScreen.SetActive(true);
             MusicManager.PauseBackgroundMusic();
             Time.timeScale = 0;
+            foreach (GameObject reset in resetRequired)
+            {
+                reset.SetActive(false);
+            }
         }
         else
         {
@@ -108,8 +112,7 @@ public class GameController : MonoBehaviour
     {
         gameOverScreen.SetActive(false);
         MusicManager.PlayBackgroundMusic(true);
-        survivedLevelsCount = 0;
-        LoadLevel(currentLevelIndex, false);
+        LoadLevel(currentLevelIndex);
         OnReset.Invoke();
         PlayerHealth.isDead = false;
         PlayerHealth.animator.ResetTrigger("die");
@@ -142,7 +145,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void LoadLevel(int level, bool wantSurvivedIncrease)
+    void LoadLevel(int level)
     {
         //Stop current sounds
         SoundEffectManager.Stop();
@@ -157,6 +160,18 @@ public class GameController : MonoBehaviour
         nextLevel[level].SetActive(false);
 
         player.transform.position = new Vector3(-3.75f, 4.38f, 1f);
+
+        PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
+        if (playerMovement != null)
+        {
+            playerMovement.isFacingRight = true;
+            Vector3 ls = player.transform.localScale;
+            if (ls.x < 0)
+            {
+                ls.x *= -1f;
+                player.transform.localScale = ls;
+            }
+        }
 
         // Last level make bigger player
         if(levels.Count - 1 == level)
@@ -177,10 +192,6 @@ public class GameController : MonoBehaviour
         currentLevelIndex = level;
         progressAmount = 0;
         progressSlider.value = 0;
-        if (wantSurvivedIncrease)
-        {
-            survivedLevelsCount++;
-        }
     }
 
     void ActivateCurrentLevelCollectables(int levelIndex)
@@ -225,6 +236,6 @@ public class GameController : MonoBehaviour
     {
         int nextLevelIndex = currentLevelIndex + 1;
         Debug.Log("Loading next level: " + nextLevelIndex);
-        LoadLevel(nextLevelIndex, true);      
+        LoadLevel(nextLevelIndex);      
     }
 }

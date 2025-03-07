@@ -7,10 +7,10 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Animator animator;
-    bool isFacingRight = true;
+    public bool isFacingRight = true;
     public ParticleSystem smokeFX;
     public ParticleSystem speedFX;
-    private Collider2D playerCollider;
+  
 
     [Header("Movement")]
     public float moveSpeed = 5f;
@@ -68,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 attackRange = new Vector2(0.5f, 0.05f);
     public LayerMask enemyLayer;
     public LayerMask bossLayer;
+    public LayerMask projectilesLayer;
     public int attackDamage = 1;
     public float attackDuration = 1f;
     bool isAttacking;
@@ -81,7 +82,6 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerCollider = GetComponent<Collider2D>();
         SpeedItem.OnSpeedCollected += StartSpeedBoost;
     }
 
@@ -233,6 +233,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if(collision.gameObject.CompareTag("BottomBorder"))
         {
+            gameObject.GetComponent<PlayerHealth>().TakeDamage(1, transform.position);
             transform.position = new Vector3(-3.75f, 4.38f, 1f);
         }
     }
@@ -267,7 +268,7 @@ public class PlayerMovement : MonoBehaviour
 
         yield return new WaitForSeconds(attackDuration);
 
-        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(attackPointPos.position, attackRange, 0, enemyLayer | bossLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(attackPointPos.position, attackRange, 0, enemyLayer | bossLayer | projectilesLayer);
         
         if (hitEnemies.Length > 0) // Add safety check
         {

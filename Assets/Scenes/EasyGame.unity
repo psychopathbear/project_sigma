@@ -1178,7 +1178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 107935940}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Traps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2592,7 @@ GameObject:
   - component: {fileID: 167335423}
   - component: {fileID: 167335422}
   - component: {fileID: 167335421}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5105,7 +5105,7 @@ GameObject:
   - component: {fileID: 320776045}
   - component: {fileID: 320776044}
   - component: {fileID: 320776043}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5295,7 +5295,6 @@ MonoBehaviour:
   - name: Hurt
     audioClips:
     - {fileID: 8300000, guid: 9755c5d650064164b8c87c1380eec65e, type: 3}
-    - {fileID: 8300000, guid: e17cf24fc2cd37145a97613fb48a1269, type: 3}
   - name: Jump
     audioClips:
     - {fileID: 8300000, guid: 6cf8d73fa57424a46a30a7507f2c986b, type: 3}
@@ -5442,7 +5441,7 @@ GameObject:
   - component: {fileID: 331180889}
   - component: {fileID: 331180888}
   - component: {fileID: 331180887}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6549,7 +6548,7 @@ GameObject:
   - component: {fileID: 406418770}
   - component: {fileID: 406418769}
   - component: {fileID: 406418768}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15351,6 +15350,10 @@ MonoBehaviour:
   - {fileID: 1255722252}
   - {fileID: 2133600731}
   - {fileID: 235102273}
+  resetRequired:
+  - {fileID: 1791378743}
+  - {fileID: 2075135355}
+  - {fileID: 1016538445}
 --- !u!4 &757081003
 Transform:
   m_ObjectHideFlags: 0
@@ -15796,7 +15799,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9097356618118420057, guid: df3f1642359b18d49916b025aec43031, type: 3}
   m_PrefabInstance: {fileID: 863619175}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1016538445}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -22967,6 +22970,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8318472574311407999, guid: 0e9702105956a1640a83f6baf35f4a17, type: 3}
   m_PrefabInstance: {fileID: 126151220}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1016538445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6320115494880566756, guid: df3f1642359b18d49916b025aec43031, type: 3}
+  m_PrefabInstance: {fileID: 863619175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1016734009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3338269606980883085, guid: 5221965f73a34ee4e8f3a16eaee4f92f, type: 3}
@@ -23258,7 +23266,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9097356618118420057, guid: df3f1642359b18d49916b025aec43031, type: 3}
   m_PrefabInstance: {fileID: 593794091}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2075135355}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -25164,7 +25172,7 @@ GameObject:
   - component: {fileID: 1122560955}
   - component: {fileID: 1122560954}
   - component: {fileID: 1122560953}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrapUp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25313,7 +25321,7 @@ GameObject:
   - component: {fileID: 1124805295}
   - component: {fileID: 1124805294}
   - component: {fileID: 1124805293}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29864,7 +29872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1273161937}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTraps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33012,7 +33020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Alpha v0.6.2
+  m_text: 'Alpha v0.6.3
 
 
 '
@@ -37282,7 +37290,7 @@ GameObject:
   - component: {fileID: 1586269751}
   - component: {fileID: 1586269750}
   - component: {fileID: 1586269749}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrapUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38734,7 +38742,7 @@ GameObject:
   - component: {fileID: 1660796071}
   - component: {fileID: 1660796070}
   - component: {fileID: 1660796069}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40340,6 +40348,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8318472574311407999, guid: 0e9702105956a1640a83f6baf35f4a17, type: 3}
   m_PrefabInstance: {fileID: 1612812586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1791378743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6320115494880566756, guid: df3f1642359b18d49916b025aec43031, type: 3}
+  m_PrefabInstance: {fileID: 202067441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1792577167
 GameObject:
   m_ObjectHideFlags: 0
@@ -40490,7 +40503,7 @@ GameObject:
   - component: {fileID: 1795320567}
   - component: {fileID: 1795320566}
   - component: {fileID: 1795320565}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42670,7 +42683,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 9.267515, y: 11.813372}
+  m_Offset: {x: 6.724709, y: 11.813372}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -42680,7 +42693,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 21.723812, y: 15.393285}
+  m_Size: {x: 16.638203, y: 15.393284}
   m_EdgeRadius: 0
 --- !u!4 &1846882251
 Transform:
@@ -45592,7 +45605,7 @@ GameObject:
   - component: {fileID: 1859725637}
   - component: {fileID: 1859725636}
   - component: {fileID: 1859725635}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45802,7 +45815,7 @@ GameObject:
   - component: {fileID: 1887818413}
   - component: {fileID: 1887818412}
   - component: {fileID: 1887818411}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46381,7 +46394,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.017611384, y: -0.0025729686}
+  m_Offset: {x: -0.41911685, y: -0.0025729537}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -46391,7 +46404,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.0333767, y: 0.9948541}
+  m_Size: {x: 2.906833, y: 0.9948541}
   m_EdgeRadius: 0
 --- !u!1001 &1930753107
 PrefabInstance:
@@ -46927,7 +46940,7 @@ GameObject:
   - component: {fileID: 1962772843}
   - component: {fileID: 1962772842}
   - component: {fileID: 1962772841}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47200,7 +47213,7 @@ GameObject:
   - component: {fileID: 2001860784}
   - component: {fileID: 2001860783}
   - component: {fileID: 2001860782}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SpikeTrap3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47901,6 +47914,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7464311187962500115, guid: b7844f7eac67b754e8eafed02881bc60, type: 3}
   m_PrefabInstance: {fileID: 1477496157}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2075135355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6320115494880566756, guid: df3f1642359b18d49916b025aec43031, type: 3}
+  m_PrefabInstance: {fileID: 593794091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2082741966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48506,7 +48524,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.6380335, y: 0.124297276}
+  m_Offset: {x: 0.56795555, y: 0.124297276}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -48516,7 +48534,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.877093, y: 0.15999156}
+  m_Size: {x: 4.161854, y: 0.15999156}
   m_EdgeRadius: 0
 --- !u!4 &2108335650 stripped
 Transform:
@@ -49318,6 +49336,10 @@ PrefabInstance:
     - target: {fileID: 2176962813866329222, guid: 9e15bfbdeffa28e4d986c5749200ddc0, type: 3}
       propertyPath: dashCooldown
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176962813866329222, guid: 9e15bfbdeffa28e4d986c5749200ddc0, type: 3}
+      propertyPath: projectilesLayer.m_Bits
+      value: 32768
       objectReference: {fileID: 0}
     - target: {fileID: 2422941652659423551, guid: 9e15bfbdeffa28e4d986c5749200ddc0, type: 3}
       propertyPath: m_LocalScale.x
