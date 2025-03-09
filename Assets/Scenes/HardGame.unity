@@ -6884,8 +6884,8 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 10
   lootTable:
-  - itemPrefab: {fileID: 6886292071582579526, guid: 343ead9ba00047f42a93833b757ec596, type: 3}
-    dropChance: 1
+  - itemPrefab: {fileID: 6886292071582579526, guid: 1dd25a5c3ca040c47904214972517428, type: 3}
+    dropChance: 100
 --- !u!114 &420719844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33031,7 +33031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Alpha v0.6.2
+  m_text: 'Alpha v0.6.4
 
 
 '
@@ -33068,7 +33068,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -46331,9 +46331,9 @@ GameObject:
   - component: {fileID: 1923511573}
   - component: {fileID: 1923511575}
   - component: {fileID: 1923511574}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: AttackCollider
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

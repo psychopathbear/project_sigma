@@ -143,7 +143,6 @@ PlayerSettings:
   bundleVersion: 0.5.5
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  - {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -695,7 +694,7 @@ PlayerSettings:
   cloudProjectId: a9de1f93-f5cb-44e8-aca0-6158c624e4e0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ANAN-IN 2
+  projectName: project_sigma
   organizationId: asdheyo
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
